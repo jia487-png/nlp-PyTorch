@@ -129,13 +129,13 @@ with torch.no_grad():
 ~~~~
 
 # 运行结果
-epoch 000 loss: 2.3192
-epoch 050 loss: 1.6975
-epoch 100 loss: 0.8788
-epoch 150 loss: 0.2744
-epoch 200 loss: 0.1303
-epoch 250 loss: 0.0796
-['the', 'cat', 'ate', 'the', 'fish'] -> ['DET', 'NN', 'V', 'DET', 'NN']
-真实标签: ['DET', 'NN', 'V', 'DET', 'NN']
-['Everybody', 'Sing', 'the', 'song'] -> ['NN', 'V', 'DET', 'NN']
-真实标签: ['NN', 'V', 'DET', 'NN']
+epoch 000 loss: 2.3192  
+epoch 050 loss: 1.6975  
+epoch 100 loss: 0.8788  
+epoch 150 loss: 0.2744   
+epoch 200 loss: 0.1303  
+epoch 250 loss: 0.0796  
+['the', 'cat', 'ate', 'the', 'fish'] -> ['DET', 'NN', 'V', 'DET', 'NN']  
+真实标签: ['DET', 'NN', 'V', 'DET', 'NN']  
+['Everybody', 'Sing', 'the', 'song'] -> ['NN', 'V', 'DET', 'NN']  
+真实标签: ['NN', 'V', 'DET', 'NN']  
