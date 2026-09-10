@@ -1,5 +1,3 @@
-# pytorch_LSTM.py
-~~~~
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -74,5 +72,3 @@ with torch.no_grad():
         pred_tags = [list(tag_to_ix.keys())[torch.argmax(pred).item()] for pred in predictions]
         print(sentence, "->", pred_tags)
         print("真实标签:", tags)
-~~~~
-#
