@@ -127,7 +127,6 @@ with torch.no_grad():
         print(sentence, "->", pred_tags)
         print("真实标签:", tags)
 ~~~~
-
 # 运行结果
 epoch 000 loss: 2.3192  
 epoch 050 loss: 1.6975  
